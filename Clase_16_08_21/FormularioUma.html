@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Creacion de Formularios</title>
+    <meta http-equiv="Content-Type" content="textUhtml; charset=UTF-8">
+</head>
+<body>
+<form name="formulario" id="formulario" method="post" action="" enctype="multipart/form-data">
+		<table width="1000" border="1" cellpadding="5">
+            <tr>
+                <td align="right">Nombre:</td>
+                <td colspan="2">
+                    <input type="text" id="nombre" name="nombre" size="20" maxlength="20"
+                        accesskey="n" tabindex="1"/>
+                </td>
+                <td align="right" width="164" >Apellido:</td>
+                <td colspan="2">
+                    <input type="text" id="apellido" name="apellido" size="20" maxlength="20"
+                        accesskey="a" tabindex="2"/>
+                </td>
+                <td align="center">
+                    Institución
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="164">Email:</td>
+                <td colspan="2">
+                    <input type="text" id="email" name="email" size="20" maxlength="20"
+                        accesskey="e" tabindex="3"/>
+                </td>
+                
+                <td align="right" width="164">Contraseña:</td>
+                <td colspan="2">
+                    <input type="password" id="contra" name="contra" size="20" maxlength="20"
+                        accesskey="p" tabindex="4"/>
+                </td>
+                <td align="rigth" rowspan="7">
+                        <img src="logo_UMA.png" alt="Logo UMA" title="Logo UMA">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="164">Departamento:</td>
+                <td colspan="1">
+                    <select name="departamentos" id="departamentos" tabindex="5" accesskey="d">
+                        <option value="1">Ahuachapan</option>
+                        <option value="2">Cabañas</option>
+                        <option value="3">Chalatenango</option>
+                        <option value="4">Cuscatlán</option>
+                        <option value="5">La libertad</option>
+                        <option value="6">La Paz</option>
+                        <option value="7">La Unión</option>
+                        <option value="8">Morazán</option>
+                        <option value="9">San Miguel</option>
+                        <option value="10">San Salvador</option>
+                        <option value="11">San Vicente</option>
+                        <option value="12">Santa Ana</option>
+                        <option value="13">Sonsonate</option>
+                        <option value="14">Usulután</option>
+                    </select>
+                    <td align="right">Dirección:</td>
+                </td>
+                <td colspan="3">
+                        <input type="text" id="direccion" name="direccion" tabindex="7" size="45"
+                            maxlength="40"
+                            accesskey="i">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="164">Teléfono:</td>
+                <td colspan="2">
+                    <input type="text" id="telefono" name="telefono" accesskey="t"
+                        size="20" maxlength=" 20"
+                        tabindex="8">
+                </td>
+                <td align="rigth" width="164">Celular</td>
+                <td colspan="2">
+                    <input type="text" id="celular" name="celular" accesskey="c" tabindex="9"
+                        maxlength="40" size="20">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" width="164" rowspan="2">Genero:</td>
+                <td align="right">Masculino</td>
+                <td>
+                    <input type="radio" name="genero" id="masculino" checked="true">
+                </td>
+                <td align="right" width="164" rowspan="2">Informacion personal:</td>
+                <td>
+                    <input type="checkbox" name="dui" id="dui">
+                </td>
+                <td align="left">DUI</td>
+                <tr>
+                    <td align="right" >Femenino</td>
+                    <td>
+                        <input type="radio" name="genero" id="femenino">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="nit" id="nit">
+                    </td>
+                    <td align="left">NIT</td>
+                </tr>
+            </tr>
+            <tr>
+                <td align="rigth">¿Porqué desea trabajar con nosotros?</td>
+                <td colspan="5">
+                    <textarea rows="6" cols="80"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" id="enviar" name="enviar" value="Enviar">
+                </td>
+                <td colspan="3" align="center">
+                    <input type="reset" id="reset" name="reset" value="Borrar">
+                </td>
+            </tr>
+        </table>
+</form> 
+</body>
+</html>
